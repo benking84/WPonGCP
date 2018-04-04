@@ -42,7 +42,7 @@ class WordPressSetup extends Command
     const FLEXIBLE_ENV = 'Flexible Environment';
     const STANDARD_ENV = 'Standard Environment';
 
-    const DEFAULT_DB_REGION = 'us-central1';
+    const DEFAULT_DB_REGION = 'australia-southeast1';
 
     private static $availableDbRegions = array(
         'northamerica-northeast1',
@@ -314,7 +314,7 @@ class WordPressSetup extends Command
         $keys = array(
             'project_id' => '',
             'db_instance' => 'wp',
-            'db_name' => 'wp',
+            'db_name' => 'wordpress',
             'db_user' => 'wp',
             'db_password' => '',
         );
